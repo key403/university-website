@@ -1,7 +1,7 @@
 import Image from "next/image";
-import a1 from "@/public/activities/a1.jpg"
-import a2 from "@/public/activities/a2.jpg"
-import a3 from "@/public/activities/a3.jpg"
+import a1 from "@/public/activities/a1.jpg";
+import a2 from "@/public/activities/a2.jpg";
+import a3 from "@/public/activities/a3.jpg";
 
 const Activities = () => {
   return (
@@ -48,7 +48,7 @@ const Activities = () => {
 
         <div className="bg-neutral-800 px-3 py-4 pb-16">
           <h4 className="font-semibold block min-h-[48px]">
-            Festival Cultural Internacional "Mundo en Colores"
+            Festival Cultural Internacional 'Mundo en Colores'
           </h4>
           <div className="mb-6 relative">
             <span className="logo-tag">HorizonTech</span>
@@ -90,9 +90,7 @@ const Activities = () => {
             Semana de Voluntariado en la Comunidad
           </h4>
           <div className="mb-6 relative">
-            <span className="logo-tag">
-              HorizonTech
-            </span>
+            <span className="logo-tag">HorizonTech</span>
             <span className="absolute bottom-0 right-0 bg-black bg-opacity-70 p-2">
               7/13-11-2023
             </span>
