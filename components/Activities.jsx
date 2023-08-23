@@ -48,7 +48,7 @@ const Activities = () => {
 
         <div className="bg-neutral-800 px-3 py-4 pb-16">
           <h4 className="font-semibold block min-h-[48px]">
-            Festival Cultural Internacional 'Mundo en Colores'
+            Festival Cultural Internacional "Mundo en Colores"
           </h4>
           <div className="mb-6 relative">
             <span className="logo-tag">HorizonTech</span>
