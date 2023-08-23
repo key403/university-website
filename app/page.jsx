@@ -1,5 +1,10 @@
 "use client"
 
+import news1 from "../public/news1.jpg"
+import news2 from "../public/news2.jpg"
+import news3 from "../public/news3.jpg"
+import news4 from "../public/news4.jpg"
+
 import Image from 'next/image'
 import 'remixicon/fonts/remixicon.css'
 import { useRef, useState } from 'react';
@@ -30,7 +35,7 @@ export default function Home() {
       >          
         <SwiperSlide className=''>
           <div className='relative'>
-            <img src="news1.jpg" className=' w-full h-[450px] object-cover' alt="news 1" />
+            <Image src={news1} sizes="" className='w-full h-[450px] object-cover' alt="news 1" />
             <div className='absolute top-0 bottom-0 right-0 left-0 bg-black bg-opacity-40'>
               <div className='h-4/6 flex flex-col justify-between items-baseline pt-8 ps-8'>
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
@@ -43,7 +48,7 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide>
         <div className='relative'>
-            <img src="news2.jpg" className=' w-full h-[450px] object-cover' alt="news 1" />
+            <Image src={news2} sizes="" className=' w-full h-[450px] object-cover' alt="news 1" />
             <div className='absolute top-0 bottom-0 right-0 left-0 bg-black bg-opacity-40'>
               <div className='h-4/6 flex flex-col justify-between items-baseline pt-8 ps-8'>
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
@@ -56,7 +61,7 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide>
         <div className='relative'>
-            <img src="news3.jpg" className=' w-full h-[450px] object-cover' alt="news 1" />
+            <Image src={news3} sizes="" className=' w-full h-[450px] object-cover' alt="news 1" />
             <div className='absolute top-0 bottom-0 right-0 left-0 bg-black bg-opacity-40'>
               <div className='h-4/6 flex flex-col justify-between items-baseline pt-8 ps-8'>
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
@@ -69,7 +74,7 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <div className='relative'>
-            <img src="news4.jpg" className=' w-full h-[450px] object-cover' alt="news 1" />
+            <Image src={news4} sizes="" className=' w-full h-[450px] object-cover' alt="news 1" />
             <div className='absolute top-0 bottom-0 right-0 left-0 bg-black bg-opacity-40'>
               <div className='h-4/6 flex flex-col justify-between items-baseline pt-8 ps-8'>
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
@@ -89,7 +94,7 @@ export default function Home() {
 
       <div className='container mx-auto mb-28 px-4 lg:px-10 relative md:grid md:grid-cols-2'>
         <div className='relative'>
-          <img src="news1.jpg" className='h-full w-full object-cover' alt="" />
+          <Image src={news1} sizes="" className='h-full w-full object-cover' alt="" />
           <div className='absolute top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex items-center justify-center md:hidden '>
             <h4 className='text-white text-2xl font-semibold block relative before:content-[""] before:block before:absolute before:w-1/5 before:h-1 before:bg-white before:-bottom-3 before:left-1/2 before:-translate-x-1/2'>Vinculación con la Innovación</h4>
           </div>
