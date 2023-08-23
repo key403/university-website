@@ -41,7 +41,7 @@ const Header = () => {
         <i ref={menu} onClick={toggleMenu} className="ri-menu-5-line absolute top-3 right-0 px-2 py-1 text-xl cursor-pointer z-10"></i>
         <ul ref={menuList} className="bg-slate-100 fixed  right-0 w-4/5 translate-x-full transition-all duration-[600ms] z-10">
           {header_links_top.concat(header_links_bottom).map(item=> (
-            <li key={item.name} className="p-2 font-semibold border border-slate-300 cursor-pointer">{item.name}</li>
+            <li key={item.name} className="p-2 font-semibold border border-slate-300 cursor-pointer"><a href="#">{item.name}</a></li>
           ))}
         </ul>
 
