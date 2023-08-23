@@ -123,7 +123,9 @@ const Activities = () => {
           </ul>
         </div>
       </div>
-      <button className="button-1 mx-auto">Ver más</button>
+      <button className="button-1 mx-auto">
+        <a href="#">Ver más</a>
+      </button>
     </div>
   );
 };

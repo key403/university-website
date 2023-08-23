@@ -41,7 +41,9 @@ export default function Home() {
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
                 Admisión 2° Semestre Primavera Alumnos Nuevos
                 </p>
-                <button className='button-3'>Matricúlate</button>
+                <a href="#" className='button-3'>
+                  Matricúlate
+                </a>
               </div>
             </div>
           </div>
@@ -54,7 +56,7 @@ export default function Home() {
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
                 Se parte de nuestra agenda de actividades.
                 </p>
-                <button className='button-3'>Ver más</button>
+                <a href="#" className='button-3'>Ver más</a>
               </div>
             </div>
         </div>
@@ -67,7 +69,7 @@ export default function Home() {
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
                 Programa de becas innovador para estudiantes de artes creativas.
                 </p>
-                <button className='button-3'>Ver más</button>
+                <a href="#" className='button-3'>Ver más</a>
               </div>
             </div>
         </div>
@@ -80,7 +82,7 @@ export default function Home() {
                 <p className=' text-white text-4xl lg:text-5xl font-semibold w-[15ch]'>
                 Se parte de nuestra agenda de actividades.
                 </p>
-                <button className='button-3'>Ver más</button>
+                <a href="#" className='button-3'>Ver más</a>
               </div>
             </div>
           </div>
@@ -98,16 +100,16 @@ export default function Home() {
           <div className='absolute top-0 bottom-0 left-0 right-0 bg-black bg-opacity-50 flex items-center justify-center md:hidden '>
             <h4 className='text-white text-2xl font-semibold block relative before:content-[""] before:block before:absolute before:w-1/5 before:h-1 before:bg-white before:-bottom-3 before:left-1/2 before:-translate-x-1/2'>Vinculación con la Innovación</h4>
           </div>
-          <button className='absolute bottom-2 right-2 text-white underline md:hidden'>
+          <a href="#" className='absolute bottom-2 right-2 text-white underline md:hidden'>
             Ver más <span><i class="ri-arrow-right-line"></i></span>
-          </button>
+          </a>
         </div>
         
         <div className='hidden md:flex flex-col justify-center items-center bg-neutral-800 text-white py-8 px-5'>
           <h4 className='text-3xl font-semibold mb-3'>Vinculación con la Innovación</h4>
           <p>Promovemos el desarrollo de iniciativas de innovación, desarrollo, transferencia y difusión de conocimiento y tecnologías, integradas en la formación de los estudiantes.</p>
           <button className='button-2'>
-            Ver más
+            <a href="#">Ver más</a>
           </button>
         </div>
       </div>
@@ -117,14 +119,14 @@ export default function Home() {
         <div className='grid grid-rows-2 gap-8 md:grid-rows-none md:grid-cols-2'>
           <div className='bg-slate-200 px-6 py-6 flex flex-col gap-4 items-center justify-center'>
             <button className= 'w-full bg-neutral-800 p-2 text-white flex gap-2 justify-center items-center'>
-              <span className='text-xl font-semibold'>
+              <a href="#" className='text-xl font-semibold'>
                 Encuentra la carrera perfecta para ti
-              </span>
+              </a>
               <i class="ri-external-link-line text-xl"></i></button>
             <button className='w-full bg-red-600 text-white flex gap-2 justify-center items-center p-2'>
-              <span className='text-xl font-semibold'>
+              <a href="#" className='text-xl font-semibold'>
                 Sigue perfeccionándo con nosotros
-              </span>
+              </a>
               <i class="ri-external-link-line text-xl"></i></button>
           </div>
  
@@ -132,7 +134,7 @@ export default function Home() {
             <i class="ri-wallet-3-fill text-red-600 text-5xl inline-block mb-2"></i>
             <h4 className='font-semibold text-xl mb-6'>Financia tu carrera</h4>
             <p className='mb-8'>Te invitamos a revisar las alternativas de financiamiento a las cuales puedes acceder dependiendo de la Institución en la que te matricules en HorizonTech.</p>
-            <button className='underline'>Ver más <i class="ri-arrow-right-line"></i></button>
+            <a href="#" className='underline'>Ver más <i class="ri-arrow-right-line"></i></a>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ const News = () => {
               HorizonTech
             </span>
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer"> HorizonTech celebra la apertura de su Centro de Innovación Tecnológica. </p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer"> HorizonTech celebra la apertura de su Centro de Innovación Tecnológica. </a>
         </div>
 
         <div className="bg-slate-300">
@@ -29,7 +29,7 @@ const News = () => {
             </span>
             <Image sizes="" className="w-full" src={news2} alt="" />
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">La universidad se enorgullece de ser anfitriona de una Conferencia Internacional de Sostenibilidad.</p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">La universidad se enorgullece de ser anfitriona de una Conferencia Internacional de Sostenibilidad.</a>
         </div>
 
         <div className="bg-slate-300 hidden md:block">
@@ -39,7 +39,7 @@ const News = () => {
             </span>
             <Image sizes="" className="w-full" src={news3} alt="" />
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech lanza un programa de becas innovador para estudiantes de artes creativas.</p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech lanza un programa de becas innovador para estudiantes de artes creativas.</a>
         </div>
 
         <div className="bg-slate-300 hidden md:block">
@@ -49,7 +49,7 @@ const News = () => {
             </span>
             <Image sizes="" className="w-full" src={news4} alt="" />
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">El equipo de robótica de HorizonTech triunfa en la Competencia de Robótica Internacional.</p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">El equipo de robótica de HorizonTech triunfa en la Competencia de Robótica Internacional.</a>
         </div>
 
         <div className="bg-slate-300 hidden md:block">
@@ -59,7 +59,7 @@ const News = () => {
             </span>
             <Image sizes="" className="w-full" src={news5} alt="" />
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech celebra el destacado logro de su equipo de investigación médica en el campo de la oncología.</p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech celebra el destacado logro de su equipo de investigación médica en el campo de la oncología.</a>
         </div>
 
         <div className="bg-slate-300 hidden md:block">
@@ -69,11 +69,13 @@ const News = () => {
             </span>
             <Image sizes="" className="w-full" src={news6} alt="" />
           </div>
-          <p className="p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech anuncia la creación de una Cátedra de Estudios Interculturales en colaboración con instituciones académicas de diversos países.</p>
+          <a href="#" className="inline-block p-8 border-t-8 border-red-600 font-semibold text-lg hover:text-red-600 duration-[400ms] transition-all cursor-pointer">HorizonTech anuncia la creación de una Cátedra de Estudios Interculturales en colaboración con instituciones académicas de diversos países.</a>
         </div>
       </div>
       <button className="button-1 mx-auto">
-        Ver más
+        <a href="#">
+          Ver más
+        </a>
       </button>
     </div>
   )
