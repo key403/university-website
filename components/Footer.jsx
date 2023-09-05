@@ -15,7 +15,7 @@ const Footer = () => {
             <li>
               <span className='cursor-pointer'> 
                 <i class="ri-smartphone-line text-red-600 me-2"></i>
-                20+ 5 43294309 
+                00+ 1 01233210
               </span>
             </li>
             <li>
@@ -26,55 +26,54 @@ const Footer = () => {
             </li>
           </ul>
 
-          <ul className='flex flex-col gap-2 underline'>
+          <ul className='flex flex-col gap-2'>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Reglamento y protocolos
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Código de Ética de HorizonTech
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Politicas de Privacidad
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Transparencia
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Aseguramiento de la Calidad
-              </span>
+              </a>
             </li>
           </ul>
 
-          <ul className='flex flex-col gap-2 underline'>
+          <ul className='flex flex-col gap-2'>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Portal de Pago
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Trabaje con nosotros
-
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 Contactos en Sede
-              </span>
+              </a>
             </li>
             <li>
-              <span className='cursor-pointer'>
+              <a href='#' className='cursor-pointer underline hover:no-underline'>
                 HorizonTech Mail
-              </span>
+              </a>
             </li>
           </ul>
         </div>

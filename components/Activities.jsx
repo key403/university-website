@@ -8,6 +8,7 @@ const Activities = () => {
     <div className="container mx-auto mb-28 px-4 lg:px-10">
       <h3 className="text-3xl font-semibold mb-8">Agenda de Actividades</h3>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-white">
+        
         <div className=" bg-neutral-800 px-3 pt-4 pb-16">
           <h4 className="font-semibold block min-h-[48px]">
             Conferencia de Innovación Tecnológica
@@ -24,7 +25,7 @@ const Activities = () => {
               alt=""
             />
           </div>
-          <ul className="pt-6 border-t border-white flex flex-col gap-3">
+          <ul className="pt-6 border-t border-white flex flex-col gap-3 text-sm">
             <li className="flex gap-1">
               <i className="ri-calendar-event-fill text-red-600"></i>Fecha: 25
               de Septiembre 2023
@@ -62,7 +63,7 @@ const Activities = () => {
               alt=""
             />
           </div>
-          <ul className="pt-6 border-t border-white flex flex-col gap-3">
+          <ul className="pt-6 border-t border-white flex flex-col gap-3 text-sm">
             <li className="flex gap-1">
               <i className="ri-calendar-event-fill text-red-600"></i>Fecha: 12
               al 15 de Octubre de 2023
@@ -101,7 +102,7 @@ const Activities = () => {
               alt=""
             />
           </div>
-          <ul className="pt-6 border-t border-white flex flex-col gap-2">
+          <ul className="pt-6 border-t border-white flex flex-col gap-3 text-sm">
             <li className="flex gap-1">
               <i className="ri-calendar-event-fill text-red-600"></i>Fecha: 7 al
               13 de Noviembre de 2023

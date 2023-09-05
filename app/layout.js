@@ -1,9 +1,9 @@
 import Header from '@/components/Header'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Space_Grotesk } from 'next/font/google'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Space_Grotesk({ subsets: ['latin'],weight:["400", "500", "600","700"] })
 
 export const metadata = {
   title: 'HorizonTech',
