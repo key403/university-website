@@ -27,6 +27,9 @@ const Header = () => {
   const menuList = useRef(null)
   const overlay = useRef(null)
   const toggleMenu = ()=> {
+    overlay.current.classList.toggle("hidden")
+    document.body.classList.toggle("overflow-hidden")
+
     menu.current.classList.toggle("menu-toggle")
     menuList.current.classList.toggle("translate-x-full")
     if (overlay.current.classList.contains("opacity-0")) {
@@ -49,7 +52,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <div ref={overlay} className="fixed z-10 top-0 left-0 right-0 bottom-0 bg-black transition-all opacity-0 pointer-events-none"></div>
+        <div ref={overlay} onClick={toggleMenu} className="hidden fixed z-10 top-0 left-0 right-0 bottom-0 bg-black transition-all opacity-0"></div>
       </div>          
 
       <nav className="desktop-header hidden lg:block lg:mb-3">
